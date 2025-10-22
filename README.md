@@ -1,16 +1,55 @@
-# React + Vite
+# 🌤️ Weather App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Made with](https://img.shields.io/badge/Made%20with-React%2C%20Vite%2C%20JavaScript-blue)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-brightgreen)
+![Deployed](https://img.shields.io/badge/Deployed%20on-Netlify-orange)
 
-Currently, two official plugins are available:
+A simple and elegant **Weather Forecast Web App** built using **React (Vite)** and the **OpenWeatherMap API**.  
+Users can search for any city and instantly view live weather details with a clean and modern UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📸 Preview  
+<img width="1913" height="1022" alt="image" src="https://github.com/user-attachments/assets/b7f5e7e8-3c53-47da-b537-71a6e93e5f5e" />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack  
+- **Frontend:** React.js, Vite, JavaScript  
+- **Styling:** Modern CSS3 (custom cards and responsive design)  
+- **API Integration:** OpenWeatherMap API  
+- **State Management:** React Hooks (`useState`)  
+- **Deployment:** Netlify  
+
+---
+
+## ✨ Features  
+- 🌍 Search weather by city name  
+- 🌡️ Displays temperature, humidity, and conditions  
+- 🖼️ Dynamic icons for weather types  
+- ⚡ Fast loading with Vite build system  
+- 📱 Fully responsive for all devices  
+
+---
+
+## 🧩 Components  
+- **App.jsx** → Root component handling layout and routing  
+- **WeatherApp.jsx** → Combines SearchBox and InfoBox  
+- **SearchBox.jsx** → Handles user input for searching cities  
+- **InfoBox.jsx** → Displays fetched weather data  
+- **App.css**, **SearchBox.css**, **InfoBox.css** → Component styling  
+
+---
+
+## 📬 Contact  
+Created by **[Rohit Jadhav](https://github.com/rohitbjadhav03)**  
+📧 Email: **rohitbjadhav03@gmail.com**  
+🔗 LinkedIn: [rohitbjadhav03](https://www.linkedin.com/in/rohitbjadhav03/)  
+🐦 Twitter (X): [@rohitbjadhav03](https://x.com/rohitbjadhav03)  
+💻 GitHub: [rohitbjadhav03](https://github.com/rohitbjadhav03)  
+
+---
+
+## 🔗 Live Demo  
+🔗 **Live App:** [Weather App](https://rj-weather-app.netlify.app/)  
