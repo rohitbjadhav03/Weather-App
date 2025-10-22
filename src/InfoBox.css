@@ -1,0 +1,27 @@
+.InfoBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.cardContainer {
+  width: 300px;
+}
+
+.MuiCard-root {
+  border-radius: 16px !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15) !important;
+  transition: all 0.3s ease;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-5px);
+}
+
+.MuiCardMedia-root {
+  height: 120px !important;
+}
+
+.MuiTypography-root {
+  font-size: 0.9rem !important;
+}
